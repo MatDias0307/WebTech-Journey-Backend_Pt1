@@ -1,6 +1,10 @@
-# DevBurger - WebTech Journey - Backend - 2025
+# WebTech Journey (Parte 1) - Backend - 2025
 
-### Estrutura do Projeto
+Este projeto fez parte do programa **Backend Journey**, promovido pela **WebTech Network** da **PUC Minas** em parceria com a **LEVTY**.
+
+Trata-se de um site de lanchonete desenvolvido com Node.js e Express, que permite aos usuários visualizar o cardápio, enviar sugestões de novos lanches e entrar em contato por meio de um formulário. A aplicação também disponibiliza uma API REST que fornece os dados do cardápio em formato JSON.
+
+## Estrutura do Projeto
   - public/ 
     - css/style.css
     - images/logo.png
@@ -11,7 +15,7 @@
     - 404.html
   - server.js 
 
-### Rotas Implementadas
+## Rotas Implementadas
 1. GET / - Página inicial com cardápio e formulário de sugestões
 2. GET /sugestao - Processa sugestões via query string
 3. GET /contato - Página de contato com formulário
@@ -20,7 +24,7 @@
 6. GET /contato-recebido - Confirmação de contato recebido (PRG)
 7. Tratamento de erro 404 para rotas inexistentes
 
-### Funcionalidades Implementadas
+## Funcionalidades Implementadas
 - Exibição do cardápio via API (/api/lanches)
 - Formulário de sugestão de novos lanches
 - Formulário de contato
@@ -28,7 +32,7 @@
 - Páginas de confirmação para envios de formulários
 - Página 404 personalizada
 
-### Tecnologias Utilizadas
+## Tecnologias Utilizadas
 - Node.js
 - Express
 - HTML5
